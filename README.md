@@ -23,7 +23,3 @@ gulp.task('build', function () {
 
 In addition to Pug's API: client, extension and locals options are available. 
 
-## LICENSE
-
-[MIT][license] &copy; Orçun Saltık
-[license]: LICENSE
