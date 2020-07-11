@@ -6,6 +6,12 @@ Compile your Pug templates into 'html' or 'js'.
 
 Always uses the latest version of Pug.
 
+## Install
+
+``` bash
+npm install --save-dev gulp-pug-3
+```
+
 ## Api
 
 In addition to Pug's API: client, extension and locals options are available. 
