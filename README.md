@@ -1,4 +1,4 @@
-# gulp-pug-2
+# gulp-pug-3
 
 Gulp Pug plugin
 

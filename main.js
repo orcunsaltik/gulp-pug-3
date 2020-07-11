@@ -21,7 +21,7 @@ const pugOptKeys = [
     'name'                      // compileClient
 ];
 
-const gulpPug2 = function (opts) {
+const gulpPug3 = function (opts) {
 
     opts = opts || {};
     keys = Object.keys(opts);
@@ -63,4 +63,4 @@ const gulpPug2 = function (opts) {
     });
 };
 
-module.exports = gulpPug2;
+module.exports = gulpPug3;
