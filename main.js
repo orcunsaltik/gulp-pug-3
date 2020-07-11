@@ -1,7 +1,7 @@
 const pug     = require('pug');
 const through = require('through2');
 
-const PLUGIN_NAME = 'gulp-pug-2';
+const PLUGIN_NAME = 'gulp-pug-3';
 
 const pugOptKeys = [
     'client',                   // added to original pug options
