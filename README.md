@@ -35,6 +35,7 @@ gulp.task('build:X', () =>
                locals: { dir: 'rtl', lang: 'es' },
             extension: 'htm',
             // Pug API default opts...
+              basedir: `${__dirname}/public`
         }))
         .pipe(gulp.dest('dist');
 );
