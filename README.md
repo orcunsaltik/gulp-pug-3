@@ -13,7 +13,7 @@ In addition to Pug's API: client, extension and locals options are available.
 ## Example
 
 ```javascript
-const pug = require('gulp-pug-2');
+const pug = require('gulp-pug-3');
 
 gulp.task('build', () =>
   return gulp.src('public/**/*.pug')
