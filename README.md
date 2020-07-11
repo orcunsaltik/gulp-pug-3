@@ -2,7 +2,7 @@
 
 Gulp Pug plugin
 
-Compile your Pug templates into 'html' or 'js';
+Compile your Pug templates into 'html' or 'js'.
 Always uses the latest version of Pug.
 
 ## Example
@@ -26,3 +26,4 @@ In addition to Pug's API: client, extension and locals options are available.
 ## LICENSE
 
 [MIT][license] &copy; Orçun Saltık
+[license]: LICENSE
