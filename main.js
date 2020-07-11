@@ -39,7 +39,9 @@ const gulpPug2 = function (opts) {
         
         try {
            
-            const ext  = opts.extension || opts.client ? '.js' : '.html';
+            opts.extension = opts.extension && opts.extension.trim().replace(/^\.*/, '.');
+            
+            const ext = opts.extension || opts.client ? '.js' : '.html';
             const path = file.path;
             
             opts.filename = opts.filename || path;
