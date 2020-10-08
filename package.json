@@ -1,35 +1,49 @@
 {
-  "name": "gulp-pug-3",
-  "version": "1.0.5",
-  "description": " A Gulp plugin for Pug templates using the latest stable version.",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/orcunsaltik/gulp-pug-3.git"
-  },
-  "keywords": [
-    "gulp",
-    "pug",
-    "template",
-    "js",
-    "html",
-    "xml",
-    "gulpplugin",
-    "buffer",
-    "stream",
-    "compile"
-  ],
-  "author": "Orçun Saltık <saltikorcun@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/orcunsaltik/gulp-pug-3/issues"
-  },
-  "homepage": "https://github.com/orcunsaltik/gulp-pug-3#readme",
-  "dependencies": {
-    "pug": "^3.0.0",
-    "through2": "^4.0.2"
-  }
+    "name": "gulp-pug-3",
+    "version": "1.0.5",
+    "description": " A Gulp plugin for Pug templates using the latest stable version.",
+    "main": "main.js",
+    "scripts": {
+        "lint": "eslint main.js",
+        "test": "npm run lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/orcunsaltik/gulp-pug-3.git"
+    },
+    "keywords": [
+        "gulp",
+        "pug",
+        "template",
+        "js",
+        "html",
+        "xml",
+        "gulpplugin",
+        "buffer",
+        "stream",
+        "compile"
+    ],
+    "author": "Orçun Saltık <saltikorcun@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/orcunsaltik/gulp-pug-3/issues"
+    },
+    "homepage": "https://github.com/orcunsaltik/gulp-pug-3#readme",
+    "dependencies": {
+        "pug": "^3.0.0",
+        "through2": "^4.0.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.10.0"
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": false,
+            "node": true,
+            "es6": true
+        },
+        "parserOptions": {
+            "ecmaVersion": 2018
+        }
+    }
 }
