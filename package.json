@@ -1,7 +1,7 @@
 {
     "name": "gulp-pug-3",
-    "version": "1.0.5",
-    "description": " A Gulp plugin for Pug templates using the latest stable version.",
+    "version": "1.0.6",
+    "description": "A Gulp plugin for Pug templates using the latest stable version.",
     "main": "main.js",
     "scripts": {
         "lint": "eslint main.js",
