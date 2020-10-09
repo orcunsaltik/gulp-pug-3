@@ -49,3 +49,17 @@ gulp.task('build:X', () =>
         .pipe(gulp.dest('dist'));
 )
 ```
+
+## Troubleshooting
+
+When you encounter a problem, please open an issue. I would be glad to help you to find a solution if possible.
+
+
+## Author
+
+Github: [@ngocsangyem](https://github.com/ngocsangyem)
+
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
