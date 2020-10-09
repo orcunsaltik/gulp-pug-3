@@ -1,6 +1,6 @@
 {
     "name": "gulp-pug-3",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Gulp plugin for compiling Pug templates using the latest stable version of Pug Template Engine.",
     "main": "main.js",
     "scripts": {
@@ -16,9 +16,13 @@
         "pug",
         "jade",
         "template",
+        "templates",
         "plugin",
         "gulpplugin",
+        "gulp-plugin",
+        "javascript",
         "js",
+        "es6",
         "html"
     ],
     "author": "Orçun Saltık <saltikorcun@gmail.com>",
