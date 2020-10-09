@@ -57,7 +57,7 @@ When you encounter a problem, please open an issue. I would be glad to help you 
 
 ## Author
 
-Github: [@ngocsangyem](https://github.com/ngocsangyem)
+Github: [@orcunsaltik](https://github.com/orcunsaltik)
 
 
 ## License
