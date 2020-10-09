@@ -1,7 +1,7 @@
 {
     "name": "gulp-pug-3",
-    "version": "1.1.0",
-    "description": "A Gulp plugin for Pug templates using the latest stable version.",
+    "version": "1.1.1",
+    "description": "Gulp plugin for compiling Pug templates using latest stable version.",
     "main": "main.js",
     "scripts": {
         "lint": "eslint main.js",
@@ -14,14 +14,12 @@
     "keywords": [
         "gulp",
         "pug",
+        "jade",
         "template",
-        "js",
-        "html",
-        "xml",
+        "plugin",
         "gulpplugin",
-        "buffer",
-        "stream",
-        "compile"
+        "js",
+        "html"
     ],
     "author": "Orçun Saltık <saltikorcun@gmail.com>",
     "license": "MIT",
