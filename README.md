@@ -1,6 +1,4 @@
-# gulp-pug-3
-
-[![Build Status](https://travis-ci.com/orcunsaltik/gulp-pug-3.svg?branch=master)](https://travis-ci.com/orcunsaltik/gulp-pug-3)
+# gulp-pug-3 [![Build Status](https://travis-ci.com/orcunsaltik/gulp-pug-3.svg?branch=master)](https://travis-ci.com/orcunsaltik/gulp-pug-3)
 [![Dependency Status](https://david-dm.org/orcunsaltik/gulp-pug-3.svg)](https://david-dm.org/orcunsaltik/gulp-pug-3)
 [![devDependencies Status](https://david-dm.org/orcunsaltik/gulp-pug-3/dev-status.svg)](https://david-dm.org/orcunsaltik/gulp-pug-3?type=dev)
 [![Maintainability](https://api.codeclimate.com/v1/badges/035ff3499e767eb6b552/maintainability)](https://codeclimate.com/github/orcunsaltik/gulp-pug-3/maintainability)
@@ -8,7 +6,6 @@
 ![npm](https://img.shields.io/npm/dt/gulp-pug-3)
 [![NPM Version](https://badge.fury.io/js/gulp-pug-3.svg?style=flat)](https://npmjs.org/package/gulp-pug-3)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/orcunsaltik/gulp-pug-3/issues)
-
 
 Gulp Pug plugin
 
