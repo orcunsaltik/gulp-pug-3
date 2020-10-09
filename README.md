@@ -1,4 +1,4 @@
-# gulp-pug-3
+# Gulp Pug 3
 
 [![Build Status](https://travis-ci.com/orcunsaltik/gulp-pug-3.svg?branch=master)](https://travis-ci.com/orcunsaltik/gulp-pug-3)
 [![Dependency Status](https://david-dm.org/orcunsaltik/gulp-pug-3.svg)](https://david-dm.org/orcunsaltik/gulp-pug-3)
