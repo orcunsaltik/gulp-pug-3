@@ -14,7 +14,7 @@ Gulp Pug plugin
 
 Compile your Pug templates into 'html' or 'js'.
 
-Always uses the latest version of Pug.
+Always uses the latest version of Pug Template Engine.
 
 ## Install
 
