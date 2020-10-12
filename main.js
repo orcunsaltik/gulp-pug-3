@@ -24,7 +24,7 @@ const pugOptKeys = [
 const gulpPug3 = function (opts) {
 
     opts = opts || {};
-    keys = Object.keys(opts);
+    const keys = Object.keys(opts);
     keys.forEach((key) => {
         if (pugOptKeys.indexOf(key) < 0) {
             throw new Error(`${PLUGIN_NAME}: Undefined pug option '${key}'. Allowed options are ${pugOptKeys.toString()}`);
@@ -52,7 +52,7 @@ const gulpPug3 = function (opts) {
                     ? pug.compileClient(contents, opts)
                     : pug.compile(contents, opts)(locals);
                                        
-            file.path     = path.replace(/\.[^\.]+$/, ext);
+            file.path     = path.replace(/\.[^.]+$/, ext);
             file.contents = Buffer.from(compiled, encoding);           
 
         } catch (e) {
