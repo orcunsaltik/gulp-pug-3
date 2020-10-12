@@ -8,6 +8,8 @@
 ![npm](https://img.shields.io/npm/dt/gulp-pug-3)
 [![NPM Version](https://badge.fury.io/js/gulp-pug-3.svg?style=flat)](https://npmjs.org/package/gulp-pug-3)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/orcunsaltik/gulp-pug-3/issues)
+[![Coverage Status](https://coveralls.io/repos/github/orcunsaltik/gulp-pug-3/badge.svg?branch=master)](https://coveralls.io/github/orcunsaltik/gulp-pug-3?branch=master)
+![node-current](https://img.shields.io/node/v/gulp-pug-3)
 
 Compiles your pug templates into 'html' or 'js' easily and always uses the latest stable version of Pug Template Engine.
 
