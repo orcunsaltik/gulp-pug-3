@@ -46,7 +46,8 @@ const gulpPug3 = function (opts) {
             
             opts.filename = opts.filename || path;
             
-            const locals   = opts.locals || {};
+            const fileLocals = (file.data == null || typeof file.data !== 'object') ? {} : file.data;
+            const locals   = Object.assign({}, (opts.locals || {}), fileLocals);
             const contents = file.contents.toString();
             const compiled = opts.client
                     ? pug.compileClient(contents, opts)
