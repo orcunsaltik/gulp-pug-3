@@ -34,7 +34,7 @@ module.exports = (options) => {
 
     return through.obj((file, encoding, callback) => {
 
-		const opts = Object.assign({}, options);
+	const opts = Object.assign({}, options);
 
         if (!file.isBuffer()) {
             throw new Error(`${PLUGIN_NAME}: Buffer Only!`);
