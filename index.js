@@ -21,10 +21,10 @@ const pugOptKeys = [
 	'name'                    // compileClient
 ];
 
-module.exports = (optsBase) => {
+module.exports = (options) => {
 
-    optsBase = optsBase || {};
-    const keys = Object.keys(optsBase);
+    options = options || {};
+    const keys = Object.keys(options);
 
     keys.forEach((key) => {
         if (pugOptKeys.indexOf(key) < 0) {
@@ -33,9 +33,8 @@ module.exports = (optsBase) => {
     });
 
     return through.obj((file, encoding, callback) => {
-        // don't re-use opts as we may be called by gulp multiple times
-        // for different files
-        const opts = Object.assign({}, optsBase);
+
+		const opts = Object.assign({}, options);
 
         if (!file.isBuffer()) {
             throw new Error(`${PLUGIN_NAME}: Buffer Only!`);
