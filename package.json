@@ -1,47 +1,51 @@
 {
-    "name": "gulp-pug-3",
-    "version": "1.2.2",
-    "description": "Gulp plugin for compiling Pug templates using the latest stable version of Pug Template Engine.",
-    "main": "index.js",
-    "scripts": {
-        "lint": "eslint -c .eslintrc.js index.js --fix -o eslint.log -f unix",
-        "test": "npm run lint"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/orcunsaltik/gulp-pug-3.git"
-    },
-    "keywords": [
-        "gulp",
-        "pug",
-        "jade",
-        "template",
-        "templates",
-        "plugin",
-        "gulpplugin",
-        "gulpplugins",
-        "gulp-plugin",
-        "gulp-plugins",
-        "javascript",
-        "js",
-        "es6",
-        "html"
-    ],
-    "author": "Orçun Saltık <saltikorcun@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/orcunsaltik/gulp-pug-3/issues"
-    },
-    "homepage": "https://github.com/orcunsaltik/gulp-pug-3#readme",
-    "dependencies": {
-        "pug": "^3.0.2",
-        "through2": "^4.0.2"
-    },
-    "devDependencies": {
-        "eslint": "^7.22.0",
-        "eslint-plugin-node": "^11.1.0"
-    },
-    "engines": {
-        "node": ">= 10.22.1"
-    }
+  "name": "gulp-pug-3",
+  "version": "2.0.0",
+  "description": "Gulp plugin for compiling Pug templates using the latest stable version of Pug Template Engine.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint:fix": "eslint index.js --fix",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orcunsaltik/gulp-pug-3.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "pug",
+    "jade",
+    "template",
+    "templates",
+    "html",
+    "compile",
+    "gulp-plugin",
+    "gulp-plugins",
+    "javascript",
+    "js",
+    "es6"
+  ],
+  "author": "Orçun Saltık <saltikorcun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orcunsaltik/gulp-pug-3/issues"
+  },
+  "homepage": "https://github.com/orcunsaltik/gulp-pug-3#readme",
+  "dependencies": {
+    "pug": "^3.0.3",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+  }
 }
