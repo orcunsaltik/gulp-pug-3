@@ -6,7 +6,7 @@
 [![node version](https://img.shields.io/node/v/gulp-pug-3.svg)](https://www.npmjs.com/package/gulp-pug-3)
 [![license](https://img.shields.io/npm/l/gulp-pug-3.svg)](https://github.com/orcunsaltik/gulp-pug-3/blob/master/LICENSE)
 
-> Gulp plugin for compiling Pug templates using the latest stable version of Pug Template Engine.
+> Modern Gulp plugin for Pug 3.x template compilation - Fast HTML generation from Pug templates with source maps, filters, and full Pug API support. Actively maintained.
 
 Compiles your Pug templates into HTML or JavaScript easily and always uses the latest stable version of Pug.
 
@@ -57,10 +57,10 @@ function compilePug() {
       pug({
         locals: {
           siteName: 'My Website',
-          lang: 'en'
+          lang: 'en',
         },
         pretty: true,
-        basedir: __dirname + '/src'
+        basedir: __dirname + '/src',
       })
     )
     .pipe(dest('dist'));
@@ -80,7 +80,7 @@ function compilePugToJs() {
     .pipe(
       pug({
         client: true,
-        extension: '.js'
+        extension: '.js',
       })
     )
     .pipe(dest('dist'));
@@ -139,6 +139,17 @@ See [Pug documentation](https://pugjs.org/api/reference.html) for details.
 - Gulp >= 4.0.0
 
 ## Changelog
+
+### v2.0.2 (2025)
+
+- 🚀 Updated config files to latest standards
+- 🚀 Improved development workflow
+- 🚀 Better code quality tools
+- 🚀 Updated SEO-friendly package description
+
+### v2.0.1 (2025)
+
+- Dependency updates
 
 ### v2.0.0 (2025)
 
